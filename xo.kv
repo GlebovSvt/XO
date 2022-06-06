@@ -1,0 +1,90 @@
+<MyLayout>
+    BoxLayout:
+        padding: 15
+        orientation: 'vertical'
+        size: root.width, root.height
+
+        GridLayout:
+            spacing: 3
+            cols: 3
+
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _1
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _2
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _3
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _4
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _5
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _6
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _7
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _8
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+            Button:
+                background_color: (255, 255, 255, 1)
+                color: (0, 0, 0, 1)
+                id: _9
+                text: ''
+                font_size: 64
+                on_release: root.click(self)
+        BoxLayout:
+            size_hint: 1, .1            
+            Button:
+                size_hint: .5, .1
+                text: 'Restart'
+                font_size: 20
+                on_release: root.restart(self)
+
+            Label:
+                size_hint: .5, .1
+                text_size: ((400-30)/2, 450*.1)
+                text:'Score: '
+                font_size: 25
+                halign: 'left'
+                valign: 'center'
+
+
